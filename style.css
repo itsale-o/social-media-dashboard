@@ -259,6 +259,7 @@ h1{
     }
 
     .card{
+        margin-right: 1rem;
         min-width: 200px;
     }
 
@@ -266,6 +267,7 @@ h1{
         border: none;
         border-radius: 0 0 4px 4px;
         min-width: 200px;
+        margin-right: 1rem;
         height: 197px;
     }
 
@@ -277,6 +279,7 @@ h1{
         border-radius: 4px 4px 5px 5px;
         height: 200px;
         width: 200px;
+        margin-right: 1rem;
     }
 
     .overview-cards{
@@ -291,6 +294,10 @@ h1{
 }
 
 @media(max-width: 700px){
+    body{
+        min-width: 375px;
+    }
+
     #header-bg{
         margin-bottom: -2.5rem;
         height: 220px;
@@ -373,36 +380,6 @@ h1{
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 footer {
     font-size: 11px;
